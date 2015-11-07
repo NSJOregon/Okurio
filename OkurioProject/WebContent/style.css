@@ -1,0 +1,154 @@
+@CHARSET "ISO-8859-1";
+
+
+			body
+			{
+				background: rgba(79,79,79,.85);
+			}
+			  
+			img
+			{
+				padding:0px;
+				border:20px solid rgba(39, 30, 34, .9);
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}  
+							
+			.interesting_flag
+			{
+			    color: orange;
+			    padding:10px;
+				position: absolute;
+				right:10%;
+				top:10%;
+				font-size: 25px;
+			}	
+			
+				
+			.image_stat span
+			{ 
+				 color: white; 
+			     font: bold 32px/35px Helvetica, Sans-Serif; 
+			     letter-spacing: -1px;  
+			     background: rgb(0, 0, 0); /* fallback color */
+			     background: rgba(0, 0, 0, 0.7);
+			     padding: 10px; 
+			     position: absolute; 
+			     top: 60%; 
+			     left: 0; 
+			     width: 80%;
+			     float: left;
+     	    	 display:inline;    			
+			}
+			
+			.text_stat
+			{
+			     color: white; 
+			     font: bold 32px/35px Helvetica, Sans-Serif; 
+			     letter-spacing: -1px;  
+                 padding-right: 10px;
+		         float: left;
+		         word-break: break-all;		    	
+			}
+			
+			.image_stat
+			{
+				position:relative;
+				padding:10px;
+			}
+
+
+			#All_statistics 
+			{
+     			padding:20px;
+				background: rgba(0,0,0,.15);
+			}
+			
+					
+			#topicTextInput 
+			{
+				height: 60px;
+				width: 30%;
+				font-size: 35px;
+			}
+			
+			#okurio_description
+			{
+				 color: orange; 
+			     font: bold 32px/35px Helvetica, Sans-Serif; 
+			     letter-spacing: -1px;  
+			     padding: 20px; 
+			     top: 60%; 
+                 left: 0;
+                 background: rgba(0, 0, 0, 0.2);
+			     padding: 10px; 
+			}
+			
+			#stat_message
+			{
+			     color: white; 
+			     font: bold 32px/35px Helvetica, Sans-Serif; 
+			     letter-spacing: -1px;  
+                 float: left; 
+                 padding-right: 10px;
+		    	 display:inline;
+		         float: left;
+                 display: table-cell;
+                 white-space: nowrap;
+     		}
+			
+						
+			#header
+			{
+				background: rgb(0, 0, 0); /* fallback color */
+				background: rgba(0, 0, 0, 0.7);
+				padding: 10px; 
+				color: white; 
+				font: bold 72px/120px Helvetica, Sans-Serif; 
+			}  
+			
+			#welcome_message
+			{
+			     color: white; 
+			     font: bold 34px/40px Helvetica, Sans-Serif;
+	             display: table-cell;
+                 white-space: nowrap;			     
+			}
+			
+	        #startOver
+	        {
+			     background-color: Transparent;
+				 border: none;
+			}
+			  
+			#enterName 
+			{
+				  -webkit-border-radius: 0;
+				  -moz-border-radius: 0;
+				  border-radius: 0px;
+				  text-shadow: 0px 2px 3px #666666;
+				  -webkit-box-shadow: 0px 9px 14px #666666;
+				  -moz-box-shadow: 0px 9px 14px #666666;
+				  box-shadow: 0px 9px 14px #666666;
+				  font-family: Arial;
+				  color: #FFFFFF;
+				  font-size: 38px;
+				  padding: 10px;
+				  text-decoration: none;
+				   background-color: Transparent;
+				   border: none;
+			} 
+
+			#enterName:hover 
+			{
+				  background: #353738;
+				  background-image: -webkit-linear-gradient(top, #353738, #000000);
+				  background-image: -moz-linear-gradient(top, #353738, #000000);
+				  background-image: -ms-linear-gradient(top, #353738, #000000);
+				  background-image: -o-linear-gradient(top, #353738, #000000);
+				  background-image: linear-gradient(to bottom, #353738, #000000);
+				  text-decoration: none;
+			}
+	
+			
